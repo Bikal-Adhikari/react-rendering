@@ -1,11 +1,12 @@
 import React from "react";
-import Input from "./Input";
+import Input from "./Input.jsx";
 
 const Login = () => {
   return (
     <form className="form">
-      <Input />
-      <input type="password" placeholder="Password" />
+      <Input type="text" placeholder="Username" />
+      <Input type="password" placeholder="Password" />
+
       <button type="submit">Login</button>
     </form>
   );

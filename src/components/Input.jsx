@@ -1,7 +1,7 @@
 import React from "react";
 
-const Input = () => {
-  return <input type="text" placeholder="Username" />;
+const Input = (props) => {
+  return <input type={props.type} placeholder={props.placeholder} />;
 };
 
 export default Input;
